@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/alunos.css">
+
+    <!-- Título -->
+    <title>Alunos | TechnoArtStudio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="../galeria/Icons/Icon.svg" alt="Icon">
+                TechnoArtStudio
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#students">Alunos</a></li>
+                <li><a href="#projects" class="active">Projetos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Students Hero Section -->
+    <section class="students-hero">
+        <div class="students-hero-content">
+            <h1>Os Nossos Alunos</h1>
+            <p>Meet the creative minds behind TechnoArtStudio's multimedia projects</p>
+        </div>
+    </section>
+
+    <!-- Students Filter -->
+    <section class="students-filter">
+        <div class="filter-container">
+            <div class="specialization-filter">
+                <button class="spec-btn active" data-spec="all">All</button>
+                <button class="spec-btn" data-spec="animation">Animation</button>
+                <button class="spec-btn" data-spec="video">Video Production</button>
+                <button class="spec-btn" data-spec="design">Graphic Design</button>
+                <button class="spec-btn" data-spec="photo">Photography</button>
+                <button class="spec-btn" data-spec="web">Web Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Students Grid -->
+    <section class="students-container">
+        <div class="students-grid" id="studentsGrid">
+            <!-- Student 1 -->
+            <div class="student-card" data-spec="animation video">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">3D Artist</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" 
+                             alt="Alex Johnson" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>Alex Johnson</h3>
+                    <span class="student-spec">3D Animation & Video</span>
+                    <p class="student-bio">Specializing in motion graphics and 3D character animation with 3 years of experience.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">Blender</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">Cinema 4D</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="background: #E1306C;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="background: #333;"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="alex-johnson.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Student 2 -->
+            <div class="student-card" data-spec="design web">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">Designer</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+                             alt="David Kim" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>David Kim</h3>
+                    <span class="student-spec">UI/UX & Web Design</span>
+                    <p class="student-bio">Digital designer focused on creating immersive user experiences and brand identities.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Webflow</span>
+                        <span class="skill-tag">Illustrator</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="background: #E1306C;"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="david-kim.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Student 3 -->
+            <div class="student-card" data-spec="photo video">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">Photographer</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" 
+                             alt="Maria Chen" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>Maria Chen</h3>
+                    <span class="student-spec">Photography & Film</span>
+                    <p class="student-bio">Visual storyteller with expertise in documentary photography and short films.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Lightroom</span>
+                        <span class="skill-tag">Premiere Pro</span>
+                        <span class="skill-tag">DaVinci Resolve</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #E1306C;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="background: #FF0000;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <a href="maria-chen.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Student 4 -->
+            <div class="student-card" data-spec="animation">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">Animator</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" 
+                             alt="Jordan Smith" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>Jordan Smith</h3>
+                    <span class="student-spec">3D Animation</span>
+                    <p class="student-bio">Specializing in character animation and motion capture technology.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">Maya</span>
+                        <span class="skill-tag">Blender</span>
+                        <span class="skill-tag">Unreal Engine</span>
+                        <span class="skill-tag">ZBrush</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #333;"><i class="fab fa-github"></i></a>
+                        <a href="#" style="background: #FF4500;"><i class="fab fa-reddit-alien"></i></a>
+                    </div>
+                    <a href="jordan-smith.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Student 5 -->
+            <div class="student-card" data-spec="design photo">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">Designer</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/women/25.jpg" 
+                             alt="Sarah Williams" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>Sarah Williams</h3>
+                    <span class="student-spec">Graphic Design</span>
+                    <p class="student-bio">Brand identity specialist with a passion for typography and print design.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">InDesign</span>
+                        <span class="skill-tag">Photoshop</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #E1306C;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="background: #55ACEE;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="sarah-williams.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Student 6 -->
+            <div class="student-card" data-spec="web video">
+                <div class="student-header">
+                    <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                         alt="Student Work" 
+                         class="cover-photo">
+                    <div class="student-spec-badge">Developer</div>
+                    <div class="student-avatar-container">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" 
+                             alt="Michael Brown" 
+                             class="student-avatar">
+                    </div>
+                </div>
+                <div class="student-info">
+                    <h3>Michael Brown</h3>
+                    <span class="student-spec">Interactive Media</span>
+                    <p class="student-bio">Creating immersive web experiences with creative coding and motion design.</p>
+                    <div class="student-skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Three.js</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">GSAP</span>
+                    </div>
+                    <div class="student-links">
+                        <a href="#" style="background: #2867B2;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="background: #333;"><i class="fab fa-github"></i></a>
+                        <a href="#" style="background: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="michael-brown.html" class="portfolio-btn">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="logo" style="justify-content: center; margin-bottom: 1.5rem;">
+                <img src="../galeria/Icons/Icon.svg" alt="Icon">
+                TechnoArtStudio
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#students">Alunos</a>
+                <a href="#projects">Projetos</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contacto</a>
+            </div>
+            <p class="copyright">© 2025 TechnoArtStudio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/alunos.js"></script>
+</body>
+</html>

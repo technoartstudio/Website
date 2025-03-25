@@ -12,37 +12,38 @@
     <title>TechnoArtStudio - Multimedia Showcase</title>
 
 
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Plyr Video Player CSS -->
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
 
     <!-- FavIcon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
 
 
 
-
-    
 
 </head>
 <body>
-    <!-- Header/Navigation -->
+    <!-- Header & Navigation -->
     <header>
         <nav class="navbar">
             <a href="#" class="logo">
-                <i class="fas fa-vr-cardboard"></i>
+                <img src="galeria/Icons/Icon.svg" alt="Icon">
                 TechnoArtStudio
             </a>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Students</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#students">Alunos</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
             <div class="hamburger">
                 <i class="fas fa-bars"></i>
@@ -54,22 +55,26 @@
     <section class="hero">
         <video autoplay muted loop class="video-background">
             <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-digital-grid-5385-large.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
         </video>
         <div class="hero-content">
-            <h1>Multimedia Creativity Unleashed</h1>
-            <p>Welcome to TechnoArtStudio - the digital showcase of our multimedia class. Explore stunning videos, photography, animations, and interactive projects created by our talented students.</p>
-            <div style="display: flex; gap: 1rem; margin-top: 2rem;">
-                <a href="#gallery" class="cta-button">View Gallery</a>
-                <a href="#featured" class="cta-button" style="background: transparent; border: 2px solid var(--accent1);">Meet the Students</a>
+            <h1>Where Creativity Meets Technology</h1>
+            <p>Explore the innovative multimedia projects created by our talented students. From stunning visuals to immersive experiences, discover the future of digital art.</p>
+            <div>
+                <a href="#gallery" class="cta-button">Ver a Galeria</a>
+                <a href="#students" class="cta-button outline">Conhecer a Equipa</a>
             </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
     <!-- Media Gallery Section -->
-    <section class="media-grid" id="gallery">
+    <section class="media-gallery" id="gallery">
         <div class="section-title">
-            <h2>Multimedia Gallery</h2>
-            <p>Explore our collection of student-created media</p>
+            <h2>Galeria Multimedia</h2>
+            <p>Browse our collection of student-created videos, animations, and digital art</p>
         </div>
         
         <div class="filter-controls">
@@ -81,7 +86,7 @@
         </div>
         
         <div class="grid-container">
-            <!-- Video Card -->
+            <!-- Video Project 1 -->
             <div class="media-card" data-category="video">
                 <div class="media-thumbnail">
                     <video muted loop>
@@ -93,14 +98,14 @@
                     <h3>Neon Dreams</h3>
                     <p>Experimental short film exploring light and movement</p>
                     <div class="media-meta">
-                        <span>Alex Johnson</span>
-                        <span>May 2023</span>
+                        <span><i class="fas fa-user"></i> Alex Johnson</span>
+                        <span><i class="fas fa-calendar"></i> May 2023</span>
                     </div>
                     <span class="media-type type-video">Video</span>
                 </div>
             </div>
             
-            <!-- Photo Card -->
+            <!-- Photography Project -->
             <div class="media-card" data-category="photo">
                 <div class="media-thumbnail">
                     <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Digital Art">
@@ -109,14 +114,14 @@
                     <h3>Urban Geometry</h3>
                     <p>Architectural photography series</p>
                     <div class="media-meta">
-                        <span>Maria Chen</span>
-                        <span>April 2023</span>
+                        <span><i class="fas fa-user"></i> Maria Chen</span>
+                        <span><i class="fas fa-calendar"></i> April 2023</span>
                     </div>
                     <span class="media-type type-image">Photography</span>
                 </div>
             </div>
             
-            <!-- Animation Card -->
+            <!-- Animation Project -->
             <div class="media-card" data-category="animation">
                 <div class="media-thumbnail">
                     <video muted loop>
@@ -128,14 +133,14 @@
                     <h3>Digital Waves</h3>
                     <p>3D animation experiment</p>
                     <div class="media-meta">
-                        <span>Jordan Smith</span>
-                        <span>March 2023</span>
+                        <span><i class="fas fa-user"></i> Jordan Smith</span>
+                        <span><i class="fas fa-calendar"></i> March 2023</span>
                     </div>
                     <span class="media-type type-animation">Animation</span>
                 </div>
             </div>
             
-            <!-- Design Card -->
+            <!-- Design Project -->
             <div class="media-card" data-category="design">
                 <div class="media-thumbnail">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Graphic Design">
@@ -144,22 +149,58 @@
                     <h3>Brand Identity</h3>
                     <p>Corporate branding package</p>
                     <div class="media-meta">
-                        <span>Sarah Williams</span>
-                        <span>June 2023</span>
+                        <span><i class="fas fa-user"></i> Sarah Williams</span>
+                        <span><i class="fas fa-calendar"></i> June 2023</span>
                     </div>
                     <span class="media-type type-image">Graphic Design</span>
                 </div>
             </div>
             
-            <!-- Add more media cards as needed -->
+            <!-- Video Project 2 -->
+            <div class="media-card" data-category="video">
+                <div class="media-thumbnail">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-dancing-under-neon-lights-1230-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="media-info">
+                    <h3>Neon Rhythm</h3>
+                    <p>Music video concept</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> David Kim</span>
+                        <span><i class="fas fa-calendar"></i> July 2023</span>
+                    </div>
+                    <span class="media-type type-video">Video</span>
+                </div>
+            </div>
+            
+            <!-- Animation Project 2 -->
+            <div class="media-card" data-category="animation">
+                <div class="media-thumbnail">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-galaxy-background-1595-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="media-info">
+                    <h3>Cosmic Journey</h3>
+                    <p>Space animation sequence</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Michael Brown</span>
+                        <span><i class="fas fa-calendar"></i> August 2023</span>
+                    </div>
+                    <span class="media-type type-animation">Animation</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Featured Projects Section -->
-    <section class="featured-projects" id="featured">
+    <section class="featured-projects" id="projects">
         <div class="section-title">
             <h2>Featured Projects</h2>
-            <p>Highlighting our best student work</p>
+            <p>Highlighting our most outstanding student work</p>
         </div>
         
         <div class="horizontal-scroll">
@@ -176,7 +217,7 @@
                         <span><i class="fas fa-user"></i> David Kim</span>
                         <span><i class="fas fa-clock"></i> 3 months</span>
                     </div>
-                    <a href="#" class="cta-button" style="display: inline-block; margin-top: 1rem;">View Project</a>
+                    <a href="#" class="cta-button">View Project</a>
                 </div>
             </div>
             
@@ -193,7 +234,7 @@
                         <span><i class="fas fa-user"></i> Emily Rodriguez</span>
                         <span><i class="fas fa-clock"></i> 5 months</span>
                     </div>
-                    <a href="#" class="cta-button" style="display: inline-block; margin-top: 1rem;">View Project</a>
+                    <a href="#" class="cta-button">View Project</a>
                 </div>
             </div>
             
@@ -210,7 +251,7 @@
                         <span><i class="fas fa-user"></i> Michael Brown</span>
                         <span><i class="fas fa-clock"></i> 4 months</span>
                     </div>
-                    <a href="#" class="cta-button" style="display: inline-block; margin-top: 1rem;">View Project</a>
+                    <a href="#" class="cta-button">View Project</a>
                 </div>
             </div>
         </div>
@@ -227,23 +268,26 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <div class="footer-content">
+            <div class="logo" style="justify-content: center; margin-bottom: 1.5rem;">
+                <img src="galeria/Icons/Icon.svg" alt="Icon">
+                TechnoArtStudio
+            </div>
             <div class="social-links">
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-vimeo-v"></i></a>
                 <a href="#"><i class="fab fa-behance"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
             <div class="footer-links">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Portfolios</a>
-                <a href="#">Gallery</a>
-                <a href="#">Resources</a>
-                <a href="#">Contact</a>
-                <a href="#">Privacy Policy</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#students">Alunos</a>
+                <a href="#projects">Projetos</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contacto</a>
             </div>
             <p class="copyright">© 2025 TechnoArtStudio. All rights reserved.</p>
         </div>
