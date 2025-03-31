@@ -43,7 +43,6 @@ header {
 .navbar a img {
     width: 125px;
     height: 125px;
-    border-radius: 50%;
 }
 
 .logo {
@@ -56,9 +55,9 @@ header {
     align-items: center;
 }
 
-.logo i {
-    margin-right: 10px;
-    color: var(--accent1);
+.logo img {
+    width: 125px;
+    height: 125px;
 }
 
 .nav-links {

@@ -39,6 +39,10 @@ header {
     height: 4rem;
 }
 
+.navbar .logo img{
+    width: 125px;
+    height: 125px;
+}
 .logo {
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
