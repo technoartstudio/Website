@@ -1,0 +1,39 @@
+<div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AR Experience</h3>
+                        <p class="project-description">
+                            Experiência de realidade aumentada para visualização de produtos em 3D.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WebXR</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Blender</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Audio Visualizer</h3>
+                        <p class="project-description">
+                            Visualizador de áudio generativo que cria formas geométricas em tempo real.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Canvas API</span>
+                            <span class="tech-tag">Web Audio API</span>
+                            <span class="tech-tag">GLSL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>

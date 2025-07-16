@@ -1,0 +1,16 @@
+<div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-name">Desenvolvimento</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5/CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">SASS</span>
+                    </div>
+                </div>
