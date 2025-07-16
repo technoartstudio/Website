@@ -1,0 +1,121 @@
+<!-- Video Project 1 -->
+            <div class="gallery-item" data-category="video" data-title="neon dreams" data-student="alex johnson">
+                <a href="https://assets.mixkit.co/videos/preview/mixkit-man-under-multicolored-lights-1237-large.mp4" class="gallery-media" data-lg-size="1280-720">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-man-under-multicolored-lights-1237-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Neon Dreams</h3>
+                    <p>Experimental short film exploring light and movement</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Alex Johnson</span>
+                        <span><i class="fas fa-calendar"></i> May 2023</span>
+                    </div>
+                    <span class="media-type type-video">Video</span>
+                </div>
+            </div>
+
+            <!-- Photography Project -->
+            <div class="gallery-item" data-category="photo" data-title="urban geometry" data-student="maria chen">
+                <a href="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="gallery-media" data-lg-size="1400-933">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Urban Geometry">
+                    <div class="media-icon">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Urban Geometry</h3>
+                    <p>Architectural photography series</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Maria Chen</span>
+                        <span><i class="fas fa-calendar"></i> April 2023</span>
+                    </div>
+                    <span class="media-type type-image">Photography</span>
+                </div>
+            </div>
+
+            <!-- Animation Project -->
+            <div class="gallery-item" data-category="animation" data-title="digital waves" data-student="jordan smith">
+                <a href="https://assets.mixkit.co/videos/preview/mixkit-3d-abstract-wave-1583-large.mp4" class="gallery-media" data-lg-size="1280-720">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-3d-abstract-wave-1583-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Digital Waves</h3>
+                    <p>3D animation experiment</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Jordan Smith</span>
+                        <span><i class="fas fa-calendar"></i> March 2023</span>
+                    </div>
+                    <span class="media-type type-animation">Animation</span>
+                </div>
+            </div>
+
+            <!-- Design Project -->
+            <div class="gallery-item" data-category="design" data-title="brand identity" data-student="sarah williams">
+                <a href="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="gallery-media" data-lg-size="1400-933">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Brand Identity">
+                    <div class="media-icon">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Brand Identity</h3>
+                    <p>Corporate branding package</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Sarah Williams</span>
+                        <span><i class="fas fa-calendar"></i> June 2023</span>
+                    </div>
+                    <span class="media-type type-image">Graphic Design</span>
+                </div>
+            </div>
+
+            <!-- Video Project 2 -->
+            <div class="gallery-item" data-category="video" data-title="neon rhythm" data-student="david kim">
+                <a href="https://assets.mixkit.co/videos/preview/mixkit-woman-dancing-under-neon-lights-1230-large.mp4" class="gallery-media" data-lg-size="1280-720">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-dancing-under-neon-lights-1230-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Neon Rhythm</h3>
+                    <p>Music video concept</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> David Kim</span>
+                        <span><i class="fas fa-calendar"></i> July 2023</span>
+                    </div>
+                    <span class="media-type type-video">Video</span>
+                </div>
+            </div>
+
+            <!-- Animation Project 2 -->
+            <div class="gallery-item" data-category="animation" data-title="cosmic journey" data-student="michael brown">
+                <a href="https://assets.mixkit.co/videos/preview/mixkit-galaxy-background-1595-large.mp4" class="gallery-media" data-lg-size="1280-720">
+                    <video muted loop>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-galaxy-background-1595-large.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </a>
+                <div class="gallery-info">
+                    <h3>Cosmic Journey</h3>
+                    <p>Space animation sequence</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Michael Brown</span>
+                        <span><i class="fas fa-calendar"></i> August 2023</span>
+                    </div>
+                    <span class="media-type type-animation">Animation</span>
+                </div>
+            </div>

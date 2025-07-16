@@ -1,0 +1,61 @@
+<!-- Project 1 -->
+            <div class="featured-card">
+                <div class="featured-thumbnail">
+                    <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="3D Animation">
+                </div>
+                <div class="featured-details">
+                    <span class="media-type type-animation">Animation</span>
+                    <h3>Virtual Metropolis</h3>
+                    <p>An immersive 3D animated cityscape exploring futuristic architecture and lighting techniques.</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> David Kim</span>
+                        <span><i class="fas fa-clock"></i> 3 months</span>
+                    </div>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>~
+<!-- Project 2 -->
+            <div class="featured-card">
+                <div class="featured-thumbnail">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Film Production">
+                </div>
+                <div class="featured-details">
+                    <span class="media-type type-video">Film</span>
+                    <h3>The Last Light</h3>
+                    <p>A short film about human connection in a post-apocalyptic world, featuring advanced color grading.</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Emily Rodriguez</span>
+                        <span><i class="fas fa-clock"></i> 5 months</span>
+                    </div>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="featured-card">
+                <div class="featured-thumbnail">
+                    <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Interactive Media">
+                </div>
+                <div class="featured-details">
+                    <span class="media-type type-animation">Interactive</span>
+                    <h3>Digital Ecosystem</h3>
+                    <p>An interactive web experience simulating a living digital ecosystem with user-controlled elements.</p>
+                    <div class="media-meta">
+                        <span><i class="fas fa-user"></i> Michael Brown</span>
+                        <span><i class="fas fa-clock"></i> 4 months</span>
+                    </div>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <video id="modalVideo" controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>

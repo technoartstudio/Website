@@ -224,17 +224,14 @@ header {
 }
 
 .gallery-media {
+    display: block;
     position: relative;
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
+    cursor: pointer;
 }
 
 .gallery-media img, .gallery-media video {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    display: block;
 }
 
 .gallery-item:hover .gallery-media img, 
@@ -247,20 +244,8 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: white;
-    font-size: 2.5rem;
-    opacity: 0;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    background: rgba(0, 0, 0, 0.6);
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Allows clicks to pass through to video */
 }
 
 .media-icon i.fa-play {
@@ -341,6 +326,44 @@ header {
 .type-animation {
     background: rgba(142, 45, 226, 0.2);
     color: var(--secondary);
+}
+
+.lg-custom-backdrop .lg-backdrop {
+    pointer-events: none !important;
+}
+.lg-close {
+    z-index: 999999 !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+.lg-outer {
+    pointer-events: auto !important;
+}
+.lg-video-cont {
+    background-color: #000 !important;
+}
+.lg-video-error {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.lg-video video {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer */

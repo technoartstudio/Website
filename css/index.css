@@ -275,8 +275,16 @@ section {
 .media-card {
     border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 1;
+    transform: scale(1);
     background: var(--card-bg);
+}
+
+.media-card.hidden {
+    display: none;
+    opacity: 0;
+    transform: scale(0.9);
 }
 
 .media-card:hover {
