@@ -105,11 +105,9 @@ header {
 
 /* ===== Hero Section (Video Background) ===== */
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 0 5%;
-    position: relative;
+    position: relative; /* Required for child absolute positioning */
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
     overflow: hidden;
 }
 
@@ -117,20 +115,20 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 2000px;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
-    opacity: 0.7;
+    z-index: 0; /* Force video behind EVERYTHING */
 }
 
 .hero-content {
-    max-width: 800px;
-    background: rgba(18, 18, 18, 0.7);
+    position: relative; /* or 'absolute' if needed */
+    z-index: 1; /* Higher than video */
+    color: white; /* Ensure contrast */
+    text-align: center;
     padding: 2rem;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
 }
+
 
 .hero h1 {
     font-family: 'Orbitron', sans-serif;
@@ -405,7 +403,7 @@ section {
 }
 
 .featured-card {
-    flex: 0 0 80%;
+    flex: 0 0 55%;
     scroll-snap-align: start;
     background: var(--card-bg);
     border-radius: 10px;
@@ -425,7 +423,7 @@ section {
 
 .featured-thumbnail img {
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
     transition: transform 0.5s ease;
 }

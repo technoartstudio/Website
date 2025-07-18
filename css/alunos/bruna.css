@@ -332,6 +332,12 @@ header {
             font-size: 4rem;
         }
 
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Or 'contain' based on your needs */
+        }
+
         .project-content {
             padding: 25px;
         }
