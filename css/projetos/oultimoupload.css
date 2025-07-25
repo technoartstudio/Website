@@ -29,7 +29,10 @@
             radial-gradient(circle at 90% 80%, rgba(80, 80, 80, 0.2) 0%, transparent 40%);
         }
 
-        /* Header Styles */
+    @font-face {
+        font-family: "Custom Font";
+        src: url("/font/NIGHTMARE\ PILLS\ -\ DEMO.ttf") format("woff2"),
+    }
 header {
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     padding: 1rem 5%;
@@ -107,7 +110,8 @@ header {
         /* Horror Theme Elements */
         .horror-title {
             margin-top: 80px;
-            font-family: 'Cinzel Decorative', serif;
+            font-family: 'Custom Font';
+            src: url();
             font-size: 4rem;
             color: var(--blood);
             text-shadow: 0 0 10px rgba(138, 3, 3, 0.7);
